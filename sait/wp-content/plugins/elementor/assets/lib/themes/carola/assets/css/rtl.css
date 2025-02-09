@@ -1,0 +1,260 @@
+
+.rtl {
+  direction: rtl; 
+}
+
+.ltr {
+  direction: ltr; 
+}
+
+.rtl .switcher{
+  right: 60px;
+  left: inherit;
+}
+
+.rtl .switcher .switch_menu{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .owl-carousel{
+  direction: ltr;
+}
+
+.rtl .scroll-to-top .scroll-bar{
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.rtl .main-menu .navigation > li{
+  float: right;
+}
+
+.rtl .main-menu .navigation > li:first-child{
+  margin-left: 15px !important;
+  margin-right: 0px;
+}
+
+.rtl .main-menu .navigation > li:last-child{
+  margin-right: 15px !important;
+  margin-left: 0px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > a, 
+.rtl .main-menu .navigation > li > .megamenu li > a{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation li.dropdown .megamenu li h4{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li > a{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li.dropdown > a:after{
+  right: inherit;
+  left: 20px;
+  content: "\f104";
+}
+
+.rtl .mobile-menu{
+  text-align: right;
+}
+
+.rtl .mobile-menu .nav-logo{
+  text-align: right;
+}
+
+.rtl .mobile-menu .navigation li > a:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn{
+  right: inherit;
+  left: 6px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn.open{
+  transform: rotate(-90deg);
+}
+
+.rtl .scroll-to-top{
+  right: inherit;
+  left: 30px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > a::after, 
+.rtl .main-menu .navigation > li > .megamenu li > a::after{
+  left: inherit;
+  right: 0px;
+  transform-origin: right center;
+}
+
+.rtl .slider.style_one .slide-item-content .slider_content{
+  text-align: right;
+}
+
+.rtl .booking-section .filter-wrapper .nav-buttons .nav-pills .nav-item:first-child .nav-link {
+  border-radius: 0px 10px 0 0;
+  border-right: unset;
+}    
+
+.rtl .booking-section .filter-wrapper .filter-group{
+  border-radius: 10px 0px 10px 10px;
+}
+
+.rtl .booking-section .filter-wrapper .filter-group form .filter-area .divider::after{
+  right: inherit;
+  left: 0;
+}
+
+.rtl .single-popular-car-rating{
+  right: inherit;
+  left: 20px;
+}
+
+.rtl .single-featured-car-block{
+  direction: rtl;
+}
+
+.rtl .single-featured-car-rating{
+  right: inherit;
+  left: 20px;
+}
+
+.rtl .slider.style_two .slide-item-content .slider_content{
+  text-align: right;
+}
+
+.rtl .testimonial-block-one{
+  direction: rtl;
+}
+
+.rtl .slider.style_three .slide-item-content .slider_content{
+  text-align: right;
+}
+
+.rtl .slider.style_four .slide-item-content .slider_content{
+  text-align: right;
+}
+
+.rtl .download-app-outer .icon-box{
+  right: inherit;
+  left: 95px;
+}
+
+.rtl .sidebar-search-box button{
+  right: inherit;
+  left: 30px;
+}
+
+.rtl .custom-select::after{
+  right: inherit;
+  left: 10px;
+}
+
+.rtl .check-box label{
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+.rtl .check-box label:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .check-box label:after{
+  left: inherit;
+  right: 3.5px;
+}
+
+.rtl .add-extra-box .check-box span{
+  right: inherit;
+  left: 0;
+}
+
+.rtl .comment-box .comment-details .reply-btn{
+  right: inherit;
+  left: 30px;
+}
+
+.rtl .services-block-one{
+  padding-left: 0px;
+  padding-right: 40px;
+}
+
+.rtl .services-block-one::before{
+  inset: 0px 0px 65px 50px;
+}
+
+.rtl .terms-checkbox .checkbox-container{
+  padding-left: 0px;
+  padding-right: 25px;
+}
+
+.rtl .terms-checkbox .checkbox-container .checkmark{
+  left: inherit;
+  right: 0px;
+}
+
+
+@media only screen and (max-width: 550px){
+  .rtl .rating-progress-box .progress-box .progress-bar-text{
+    right: inherit;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .rtl .download-app-outer .icon-box{
+    left: inherit;
+  }
+
+  .rtl .rating-progress-box .progress-box .progress-bar-text{
+    right: inherit;
+    left: 0px;
+  }
+
+  .rtl .comment-box .comment-details .reply-btn{
+    left: inherit;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 350px){
+  .rtl .single-popular-car-rating{
+    left: inherit;
+  }
+
+  .rtl .single-featured-car-rating{
+    left: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

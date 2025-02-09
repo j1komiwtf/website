@@ -1,0 +1,533 @@
+.admin-bar .fixed_header .sticky_header{
+	top:32px !important;	
+}
+
+.elementor-section .elementor-column-gap-default > .elementor-column > .elementor-element-populated{
+	padding:0px;
+}
+.main-menu .navigation li.dropdown.current .dropdown-btn i,
+.main-menu .navigation > li.current > a, 
+.main-menu .navigation > li:hover > a {
+    color: var(--theme-color);
+}
+/********* Pagination Style *************/
+.pagination,
+.paginate-links{
+	position:relative;
+	gap: 5px;
+	display:flex;
+	align-items: center;
+}
+
+.pagination li a,
+.pagination li > span,
+.paginate-links a,
+.paginate-links > span {
+    position: relative;
+	width: 60px;
+    height: 60px;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 60px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 50%;	
+    font-family: var(--primary-font);
+    align-items: center;
+    justify-content: center;
+	display: inline-flex;
+	text-transform: uppercase;    
+    transition: all 500ms ease;
+	z-index: 1;
+}
+
+.pagination li a:hover, 
+.pagination li.active a,
+.pagination li > span,
+.paginate-links a:hover,
+.paginate-links > span {
+    background-color: var(--theme-color);
+    color: #ffffff;
+}
+
+
+/***************** Blog Sidebar Style*******************/
+.widget{
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.widget:last-child{
+	margin-bottom: 0px;
+}
+
+.widget ul,
+.widget ol{
+	position:relative;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.widget ul li,
+.widget ol li{
+	position: relative;
+	display:block;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	color: var(--primary-color);
+    font-size: 16px;
+    line-height: 26px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    text-transform: capitalize;
+    transition-delay: 0.1s;	
+	padding-left: 20px;
+}
+
+.widget ul li:before,
+.widget ol li:before{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    content: '\f105';
+    font-size: 15px;
+    font-weight: 900;
+    color: #000000;
+    transition: all 500ms;
+    font-family: "Font Awesome 5 Free";
+}
+
+.widget ul li:last-child,
+.widget ol li:last-child{
+	padding-bottom:0px;
+	margin-bottom: 0px;
+}
+
+.widget ul li ul li,
+.widget ol li ol li{
+	padding-bottom:0px;
+	padding-top:8px;
+	margin-bottom: 0;
+	margin-top: 8px;
+}
+
+.widget ul li ul li:before,
+.widget ol li ol li:before{
+	top:8px;	
+}
+
+.widget ul li a,
+.widget ol li a{
+	position: relative;
+	display:inline-block;
+	color: var(--primary-color);
+    font-size: 16px;
+    line-height: 26px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    text-transform: capitalize;
+    transition-delay: 0.1s;	
+}
+.widget ul li a:hover,
+.widget ol li a:hover{
+	color: var(--theme-color);
+}
+/******** Tags ************/
+/******** Tags ************/
+/******** Tags ************/
+.widget .tagcloud{
+	position: relative;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.widget .tagcloud a{	
+	position: relative;
+	font-size: 15px !important;
+    line-height: 26px;
+    color: #6A6A6A;
+    font-weight: 400;
+    padding: 5px 17px;
+    background: #F4F4F4;
+    border-radius: 55px;
+    display: inline-block;
+    transition: all 500ms ease;
+    font-family: var(--secondary-font);		
+}
+.widget .tagcloud a:hover{
+	color: #ffffff;
+    background-color: var(--theme-color);
+}
+/***************** Footer Widget Style*******************/
+.footer-widget{
+	position:relative;
+	margin-bottom: 30px;
+}
+.footer-widget ul,
+.footer-widget ol{
+	position:relative;
+	margin:0px;
+	padding: 0;
+}
+.footer-widget ul li,
+.footer-widget ol li{
+    display: block;
+    position: relative;   
+	font-size: 16px;
+    color: #ABABAB;
+    font-weight: 400;
+    line-height: 28px;
+	margin-bottom: 12px;
+    font-family: var(--secondary-font);   
+}
+.footer-widget ul li:last-child,
+.footer-widget ol li:last-child{
+	margin-bottom:0px;
+}
+.footer-widget ul li ul li,
+.footer-widget ol li ol li{
+	margin-top:12px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+}
+.footer-widget ul li a,
+.footer-widget ol li a{
+    position: relative;
+	color: #ABABAB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    display: inline-block;
+    font-family: var(--secondary-font);    
+    transition: all 500ms;	
+}
+.footer-widget ul li a:hover,
+.footer-widget ol li a:hover{
+	color: var(--theme-color);
+}
+
+/************ custom style *********************/
+.left-sidebar .blog-grid-content,
+.left-sidebar .blog-details-content{
+	margin-left: 22px;
+}
+.right-sidebar .blog-grid-content,
+.right-sidebar .blog-details-content{
+	margin-right: 22px;
+}
+.footer-top-outer .footer_newsletter_widget .subscribe-form .btn-style-seven:hover:after {
+    transform: none;
+	display:none;
+}
+.footer-top-outer .footer_newsletter_widget .subscribe-form button{
+	position: relative;
+	margin-top: 10px;
+}
+.car-type-item,
+.single-brand-item {
+    min-width: 191px;
+}
+.promotional-banner-image {
+    position: absolute;
+    bottom: 5px;
+    right: -50px;
+}
+.discount-carola-style2 .promotional-banner-image {
+    position: absolute;
+    right: -143px;
+    bottom: 13px;
+}
+.discount-carola-style3 .promotional-banner-image {
+    position: absolute;
+    right: -75px;
+    bottom: 12px;
+}
+.inner-page .works-process-block-icon span{
+    border: 3px solid rgb(255, 255, 255);
+}
+.works-process-block-icon span{
+	position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    color: rgb(6, 7, 2);
+    border: 3px solid rgb(6, 7, 2)
+}
+.widget .sidebar-gallery-widget ul.gallery-image-list li a{
+	padding-left: 0px;
+}
+.widget .sidebar-gallery-widget ul.gallery-image-list li{
+	display: inline-block;
+}
+.subscribe-section .subscribe-inner .subscribe-layer-bg{
+	opacity: 1;
+}
+.main_footer .footer-widget ul.social-links li{
+	margin: 0px;
+}
+
+/*** 
+
+====================================================================
+			Team-details-Page
+====================================================================
+
+***/
+.team-details{
+	position: relative;
+	padding: 100px 0px 100px 0px;
+}
+
+.team-details .image-box{
+	position: relative;
+	display: block;
+	padding-right: 40px;
+}
+
+.team-details .image-box img{
+	width: 100%;
+	height:100%;
+	border-radius: 50%;
+}
+
+.team-details .image-box .image-2{
+	position: absolute;
+	left: 0px;
+	bottom: 66px;
+}
+
+.team-details .content-box{
+	position: relative;
+	display: block;
+	margin-top: 0px;
+}
+
+.team-details .content-box h2{
+	position: relative;
+	display: block;
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 700;
+	margin-bottom: 14px;
+}
+
+.team-details .content-box .text h3{
+	font-size: 25px;
+}
+
+.team-details .content-box h2 span{
+	font-size: 30px;
+	display: block;
+}
+
+.team-details .content-box .designation{
+	position: relative;
+	display: block;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.team-details .content-box .text{
+	position: relative;
+	display: block;
+	margin-bottom: 20px;
+}
+.team-details .content-box .text h3,
+.team-details .content-box .text p{
+	margin-bottom: 20px;
+}
+
+.team-details .content-box .text h4{
+	display: block;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.team-details .content-box .text .list-item li{
+	position: relative;
+	display: block;
+	padding-left: 30px;
+	margin-bottom: 13px;
+}
+
+.team-details .content-box .text .list-item li:last-child{
+	margin-bottom: 0px;
+}
+
+.team-details .content-box .text .list-item li:before{
+	position: absolute;
+	content: '';
+	width: 14px;
+	height: 16px;
+	left: 0px;
+	top: 6px;
+	background-color:var(--theme-color);
+}
+
+.team-details .content-box .contact-inner h6 a{
+	display: block;
+	font-size: 20px;
+	line-height: 30px;
+	color: var(--primary-color);
+	margin-bottom: 30px;
+}
+
+.team-details .content-box .contact-inner h4{
+	display: block;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.team-details .content-box .contact-inner h4 a{
+	display: inline-block;
+	color: var(--primary-color);
+}
+
+.team-details .content-box .contact-inner h4 a:hover{
+	color: var(--theme-color);
+}
+
+.team-details .content-box .social-links li{
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+.team-details .content-box .social-links li:last-child{
+	margin: 0px !important;
+}
+
+.team-details .content-box .social-links li a{
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 52px;
+	text-align: center;
+	border: 1px solid var(--theme-color);
+	border-radius: 50%;
+	font-size: 16px;
+	color: var(--theme-color);
+}
+
+.team-details .content-box .social-links li a:hover{
+	background:var(--theme-color);
+	color: #fff;
+}
+
+.single-featured-car-info__two{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: space-between;
+}
+
+.single-featured-car-info__two li{
+	margin: 0;
+}
+
+.car-details-right-sidebar .price-box{
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.car-details-right-sidebar .price-box h4{
+	font-size: 35px;
+	color: var(--theme-color);
+}
+
+.car-details-right-sidebar .price-box h4 span{
+	font-size: 50%;
+	color: var(--title-color);
+}
+
+.mb_10{
+	margin-bottom: 10px;
+}
+
+.mb_15{
+	margin-bottom: 15px;
+}
+
+
+.mt_30{
+	margin-top: 30px;
+}
+
+.single-search-box .searchbox-input input{
+	width: 100%;
+}
+
+.dark-bg .single-search-box .searchbox-input input{
+	color: #ffffff;
+	opacity: 1;
+}
+
+.carola-comment-item .comment-form-area{
+	margin-bottom: 65px;
+}
+
+.mt_15{
+	margin-top: 15px;
+}
+
+.comment-box__main,
+.comment-form-area{
+	margin-top: 50px;
+}
+
+@media only screen and (min-width: 767px){
+	.carola-comment-item .carola-comment-item{
+		margin-left: 70px;
+	}
+}
+
+.mb_20{
+	margin-bottom: 20px;
+}
+
+.widget .wp-block-group,
+.footer-widget .wp-block-group{
+	margin-bottom: 0;
+}
+
+h3.sidebar-widget-title a,
+.footer_widget_title a{
+	color: inherit;
+}
+
+.thm-unit-test p, .thm-unit-test .text{
+	line-height: 26px;
+	color: #6A6A6A;
+}
+
+.error-section{
+	height: calc( 100vh - 50px );
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.error-container-outer h2{
+	font-size: 8vw;
+	line-height: 1;
+	margin-bottom: 15px;
+}
